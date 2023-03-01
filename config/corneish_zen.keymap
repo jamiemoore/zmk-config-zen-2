@@ -31,7 +31,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "hold_tog";
             #binding-cells = <2>;
-            flavor = "hold-preferred";
+            flavor = "balanced";
             tapping-term-ms = <300>;
             bindings =
                 <&kp>,
