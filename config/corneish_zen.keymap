@@ -84,7 +84,7 @@
 &trans  &trans  &trans  &trans  &trans       &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans       &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans       &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                         &mo 4  &tog 4  &lt 4 SPACE    &trans  &trans  &trans
+                         &mo 6   &mo 5  &lt 4 SPACE    &trans  &trans  &trans
             >;
         };
 
@@ -94,6 +94,24 @@
 &none  &kp N1  &kp N2     &kp N3      &kp N4  &kp N5    &none  &none  &none  &none  &none  &none
 &none   &none   &none      &none       &none   &none    &none  &none  &none  &none  &none  &none
                        &kp LCTRL  &kp LSHIFT   &none    &none  &none  &none
+            >;
+        };
+
+        starcraft2s {
+            bindings = <
+&trans      &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LS(N1)  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                            &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+        };
+
+        staarcraft2c {
+            bindings = <
+&trans      &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LC(N1)  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                            &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
