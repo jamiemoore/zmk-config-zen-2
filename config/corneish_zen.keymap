@@ -15,12 +15,12 @@
         compatible = "zmk,combos";
 
         layers {
-            bindings = <&mo 3>;
+            bindings = <&to 3>;
             key-positions = <40 14>;
         };
 
         layerd {
-            bindings = <&mo 0>;
+            bindings = <&to 0>;
             key-positions = <40 15>;
         };
     };
