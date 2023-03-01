@@ -25,6 +25,17 @@
         };
     };
 
+    behaviors {
+        hold_tog: behavior_hold_tog {
+            compatible = "zmk,behavior-hold-tap";
+            label = "hold_tog";
+            #binding-cells = <2>;
+            flavor = "hold-preferred";
+            tapping-term-ms = <200>;
+            bindings = <&kp>, <&tog>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -84,7 +95,7 @@
 &trans  &trans  &trans  &trans  &trans       &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans       &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans       &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                         &mo 6   &mo 5  &lt 4 SPACE    &trans  &trans  &trans
+                         &kp LCTRL   &hold_tog LSHIFT 4  &kp SPACE    &trans  &trans  &trans
             >;
         };
 
@@ -93,7 +104,7 @@
 &none  &kp F1  &kp F2     &kp F3      &kp F4  &kp F5    &none  &none  &none  &none  &none  &none
 &none  &kp N1  &kp N2     &kp N3      &kp N4  &kp N5    &none  &none  &none  &none  &none  &none
 &none   &none   &none      &none       &none   &none    &none  &none  &none  &none  &none  &none
-                       &kp LCTRL  &kp LSHIFT   &none    &none  &none  &none
+                       &kp LCTRL  &hold_tog LSHIFT 3 &none    &none  &none  &none
             >;
         };
 
