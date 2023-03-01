@@ -91,6 +91,7 @@
         };
 
         starcraft {
+            label = "sc2";
             bindings = <
 &trans  &trans  &trans  &trans  &trans       &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans       &trans    &trans  &trans  &trans  &trans  &trans  &trans
@@ -100,11 +101,12 @@
         };
 
         starcraft2 {
+            label = "sc2cg";
             bindings = <
 &none  &kp F1  &kp F2     &kp F3      &kp F4  &kp F5    &none  &none  &none  &none  &none  &none
 &none  &kp N1  &kp N2     &kp N3      &kp N4  &kp N5    &none  &none  &none  &none  &none  &none
 &none   &none   &none      &none       &none   &none    &none  &none  &none  &none  &none  &none
-                       &kp LCTRL  &hold_tog LSHIFT 3 &none    &none  &none  &none
+                       &trans  &trans  &none    &none  &none  &none
             >;
         };
 
