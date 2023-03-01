@@ -3,11 +3,6 @@
 #include <dt-bindings/zmk/bt.h>
 
 
-
-&sl {
-  /delete-property/ quick-release;
-};
-
 / {
     chosen {
         zmk,matrix_transform = &default_transform;
