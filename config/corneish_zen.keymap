@@ -4,6 +4,7 @@
 
 &sl {
   /delete-property/ quick-release;
+  release-after-ms = <5000>;
 };
 
 / {
