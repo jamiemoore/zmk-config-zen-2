@@ -2,6 +2,9 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
+&sl {
+  /delete-property/ quick-release;
+};
 
 / {
     chosen {
